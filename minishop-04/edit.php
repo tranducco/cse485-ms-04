@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="text" name="description" value="<?= h($category['description'] ?? '') ?>">
         </p>
         <button type="submit">Lưu thay đổi</button>
-        <a href="index.php">Hủy</a>
+        <a href="list.php">Hủy</a>
     </form>
 </body>
 </html>
